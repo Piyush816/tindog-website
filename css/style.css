@@ -1,0 +1,200 @@
+:root {
+  --bg: #ff4c68;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/* navbar */
+
+#logo {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav-item {
+  padding-right: 2rem;
+}
+
+/* title section */
+
+#leftdiv h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  font-size: 3rem;
+}
+
+#bgimg {
+
+  width: 60%;
+  transform: rotate(25deg) translateY(20px);
+}
+
+#title {
+  background-color: var(--bg);
+  padding: 3% 15%;
+  overflow: hidden;
+}
+
+#leftdiv button,
+#cta button {
+  margin-right: 10px;
+}
+
+/* feature section */
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.card {
+  padding: 2rem;
+  border: none;
+}
+
+.card i {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+  color: #fc5c65;
+}
+.card h3 {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #2c3e50;
+}
+
+.card p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+.card:hover i {
+  color: #eb3b5a;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #fc5c65;
+  text-align: center;
+}
+
+.cbox {
+  padding: 7% 15%;
+  color: white;
+}
+
+.cbox h2 {
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 2.3rem;
+}
+
+.cbox img {
+  width: 100px;
+  border-radius: 50%;
+  padding: 1rem .8rem;
+}
+
+/* press */
+#press {
+  background-color: #fc5c65;
+  text-align: center;
+}
+
+#press img {
+  width: 150px;
+  padding-bottom: 50px;
+  margin: 0px 2rem;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#pricing h2 {
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 2.3rem;
+  color: #2c3e50;
+}
+#pricing p {
+  color: #8f8f8f;
+}
+
+.card-header {
+  background-color: var(--bg);
+  color: white;
+}
+
+.card-body button {
+  background-color: var(--bg);
+  color: white;
+}
+
+.card {
+  margin: 2rem 0px;
+  transition: all 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+.card-body button:hover {
+  color: white;
+}
+
+
+/* cta */
+#cta {
+  background-color: var(--bg);
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  margin: 3% 8%;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+/* media queries */
+
+@media (max-width:786px){
+    html{
+        font-size: 62.5%;
+    }
+    #press img{
+        width: 10rem;
+    }
+    #rightdiv{
+        margin-top: 3rem ;
+        display: flex;
+        justify-content: center;
+    }
+    #bgimg{
+        width: 50%;
+    }
+}
